@@ -1,85 +1,127 @@
-QuickAI 🚀
-AI-Powered SaaS Platform for Content Creation & Productivity
-🌐 Live Demo
+# QuickAI 🚀
 
-🚀 Frontend
-QuickAI Live App
+### AI-Powered SaaS Platform for Content Creation & Productivity
 
-⚙️ Backend API
-QuickAI Backend API
+QuickAI is a modern AI-powered SaaS platform that helps users generate content, create AI images, remove image backgrounds, analyze resumes, and enhance productivity using advanced AI tools.
 
-🎥 Demo Video
-QuickAI Demo Video
+---
 
-📂 GitHub Repository
-QuickAI GitHub Repo
+# 🌐 Live Demo
 
-✨ Features
-📝 AI Content Generation
-AI Article Generator
-AI Blog Title Generator
-Structured AI Responses
-Markdown Formatting
-Smart Categorized Titles
-Beginner / Intermediate / Advanced Suggestions
-🎨 AI Image Tools
-AI Image Generation
-Multiple Art Styles:
-Realistic
-Anime
-Ghibli
-Cartoon
-Fantasy
-3D
-Portrait
-Image Download Support
-🖼️ AI Editing Tools
-Remove Image Background
-Remove Unwanted Objects
-AI-Powered Image Processing
-Download Processed Images
-📄 Resume Review System
-Upload PDF Resume
-AI Resume Analysis
-ATS Improvement Suggestions
-Professional Structured Feedback
-Resume Strength & Weakness Detection
-👥 Community Section
-Public AI Creations Feed
-Like System
-Shared AI Images
-🔐 Authentication & SaaS Features
-Clerk Authentication
-Google Sign-In
-Protected Routes
-User Sessions
-Premium Plan Logic
-Free Usage Tracking
-🛠️ Tech Stack
-Frontend
-React.js
-Vite
-Tailwind CSS v4
-React Router DOM
-Axios
-React Markdown
-React Hot Toast
-Lucide React
-Backend
-Node.js
-Express.js
-Neon PostgreSQL
-Multer
-Cloudinary
-AI Services
-OpenRouter API
-ClipDrop API
-Google Gemini API
-Authentication & Billing
-Clerk Authentication
-Clerk User Management
-Clerk Premium Access Logic
-📂 Folder Structure
+### 🚀 Frontend
+https://quick-ai-zeta-pearl.vercel.app/
+
+### ⚙️ Backend API
+https://quick-ai-server-five-bice.vercel.app
+
+### 🎥 Demo Video
+https://www.youtube.com/watch?v=679c69XPSUQ
+
+### 📂 GitHub Repository
+https://github.com/Om24jidubey/QuickAI
+
+---
+
+# ✨ Features
+
+## 📝 AI Content Generation
+- AI Article Generator
+- AI Blog Title Generator
+- Structured AI Responses
+- Markdown Formatting
+- Smart Categorized Titles
+- Beginner / Intermediate / Advanced Suggestions
+
+---
+
+## 🎨 AI Image Tools
+- AI Image Generation
+- Multiple Art Styles:
+  - Realistic
+  - Anime
+  - Ghibli
+  - Cartoon
+  - Fantasy
+  - 3D
+  - Portrait
+- Image Download Support
+
+---
+
+## 🖼️ AI Editing Tools
+- Remove Image Background
+- Remove Unwanted Objects
+- AI-Powered Image Processing
+- Download Processed Images
+
+---
+
+## 📄 Resume Review System
+- Upload PDF Resume
+- AI Resume Analysis
+- ATS Improvement Suggestions
+- Professional Structured Feedback
+- Resume Strength & Weakness Detection
+
+---
+
+## 👥 Community Section
+- Public AI Creations Feed
+- Like System
+- Shared AI Images
+
+---
+
+## 🔐 Authentication & SaaS Features
+- Clerk Authentication
+- Google Sign-In
+- Protected Routes
+- User Sessions
+- Premium Plan Logic
+- Free Usage Tracking
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React.js
+- Vite
+- Tailwind CSS v4
+- React Router DOM
+- Axios
+- React Markdown
+- React Hot Toast
+- Lucide React
+
+---
+
+## Backend
+- Node.js
+- Express.js
+- Neon PostgreSQL
+- Multer
+- Cloudinary
+
+---
+
+## AI Services
+- OpenRouter API
+- ClipDrop API
+- Google Gemini API
+
+---
+
+## Authentication & Billing
+- Clerk Authentication
+- Clerk User Management
+- Clerk Premium Access Logic
+
+---
+
+# 📂 Folder Structure
+
+```bash
 QuickAI/
 │
 ├── client/
@@ -131,24 +173,56 @@ QuickAI/
 │   └── package.json
 │
 └── README.md
-⚙️ Installation & Setup
-1️⃣ Clone Repository
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/Om24jidubey/QuickAI.git
 cd QuickAI
-2️⃣ Frontend Setup
+```
+
+---
+
+## 2️⃣ Frontend Setup
+
+```bash
 cd client
 npm install
 npm run dev
-3️⃣ Backend Setup
+```
+
+---
+
+## 3️⃣ Backend Setup
+
+```bash
 cd server
 npm install
 npm run server
-🔑 Environment Variables
-📌 Frontend .env
+```
+
+---
+
+# 🔑 Environment Variables
+
+## 📌 Frontend `.env`
+
+```env
 VITE_BASE_URL=YOUR_BACKEND_URL
 
 VITE_CLERK_PUBLISHABLE_KEY=YOUR_CLERK_PUBLISHABLE_KEY
-📌 Backend .env
+```
+
+---
+
+## 📌 Backend `.env`
+
+```env
 PORT=5000
 
 DATABASE_URL=YOUR_NEON_DATABASE_URL
@@ -162,110 +236,155 @@ CLIPDROP_API_KEY=YOUR_CLIPDROP_API_KEY
 CLOUDINARY_CLOUD_NAME=YOUR_CLOUDINARY_NAME
 CLOUDINARY_API_KEY=YOUR_CLOUDINARY_API_KEY
 CLOUDINARY_API_SECRET=YOUR_CLOUDINARY_API_SECRET
-📸 Application Screenshots
-🏠 Home Page
+```
 
+---
+
+# 📸 Application Screenshots
+
+## 🏠 Home Page
 Modern SaaS landing page with:
+- Hero section
+- AI tools showcase
+- Demo video integration
+- Responsive design
 
-Hero section
-AI tools showcase
-Demo video integration
-Responsive design
-🤖 AI Dashboard
-Responsive sidebar
-Mobile-friendly navigation
-Smooth UI/UX
-🎨 AI Image Generator
-AI image generation
-Style selection
-Download functionality
-📄 Resume Analyzer
-Upload PDF resumes
-Structured AI feedback
-ATS suggestions
-📱 Fully Responsive Design
+---
+
+## 🤖 AI Dashboard
+- Responsive sidebar
+- Mobile-friendly navigation
+- Smooth UI/UX
+
+---
+
+## 🎨 AI Image Generator
+- AI image generation
+- Style selection
+- Download functionality
+
+---
+
+## 📄 Resume Analyzer
+- Upload PDF resumes
+- Structured AI feedback
+- ATS suggestions
+
+---
+
+# 📱 Fully Responsive Design
 
 QuickAI is optimized for:
 
-💻 Desktop
-📱 Mobile
-📟 Tablet
+- 💻 Desktop
+- 📱 Mobile
+- 📟 Tablet
 
-Includes:
+### Includes:
+- Mobile sidebar
+- Responsive grids
+- Adaptive layouts
+- Smooth transitions
 
-Mobile sidebar
-Responsive grids
-Adaptive layouts
-Smooth transitions
-🔒 Authentication Flow
+---
+
+# 🔒 Authentication Flow
 
 Powered by Clerk:
+- Sign Up
+- Sign In
+- Google OAuth
+- Protected Dashboard
+- Session Handling
 
-Sign Up
-Sign In
-Google OAuth
-Protected Dashboard
-Session Handling
-🧠 AI Capabilities
+---
+
+# 🧠 AI Capabilities
 
 QuickAI leverages AI APIs to:
+- Generate articles
+- Create blog titles
+- Generate AI images
+- Remove backgrounds
+- Remove unwanted objects
+- Analyze resumes professionally
 
-Generate articles
-Create blog titles
-Generate AI images
-Remove backgrounds
-Remove unwanted objects
-Analyze resumes professionally
-☁️ Deployment
-Frontend
-Vercel
-Backend
-Vercel Serverless Deployment
-Database
-Neon PostgreSQL
-📥 Download Features
+---
+
+# ☁️ Deployment
+
+## Frontend
+- Vercel
+
+## Backend
+- Vercel Serverless Deployment
+
+## Database
+- Neon PostgreSQL
+
+---
+
+# 📥 Download Features
 
 Users can download:
+- AI Generated Images
+- Background Removed Images
+- Object Removed Images
 
-AI Generated Images
-Background Removed Images
-Object Removed Images
-🚀 Future Improvements
-AI Chat Assistant
-Payment Gateway Integration
-AI Video Generation
-Dark Mode
-Team Collaboration
-AI Voice Assistant
-AI Code Generator
-🤝 Contributing
+---
+
+# 🚀 Future Improvements
+
+- AI Chat Assistant
+- Payment Gateway Integration
+- AI Video Generation
+- Dark Mode
+- Team Collaboration
+- AI Voice Assistant
+- AI Code Generator
+
+---
+
+# 🤝 Contributing
 
 Contributions are welcome!
 
-Fork the repository
-Create feature branch
-Commit changes
-Push changes
-Open Pull Request
-👨‍💻 Developer
-Om Dubey
+### Steps:
+1. Fork the repository
+2. Create feature branch
+3. Commit changes
+4. Push changes
+5. Open Pull Request
+
+---
+
+# 👨‍💻 Developer
+
+## Om Dubey
 
 B.Tech CSE Student | MERN Stack Developer | AI Enthusiast
 
-GitHub:
-Om Dubey GitHub
+### GitHub
+https://github.com/Om24jidubey
 
-⭐ Support
+---
+
+# ⭐ Support
 
 If you like this project:
 
-⭐ Star the repository
-🍴 Fork the project
-📢 Share with others
+- ⭐ Star the repository
+- 🍴 Fork the project
+- 📢 Share with others
 
-📄 License
+---
+
+# 📄 License
 
 This project is licensed under the MIT License.
 
-💡 QuickAI — Create Smarter with AI
-“Empowering creators with AI-powered productivity tools.”
+---
+
+# 💡 QuickAI — Create Smarter with AI
+
+### “Empowering creators with AI-powered productivity tools.”
